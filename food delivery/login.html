@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Food Delivery - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Quick Food Delivery</h1> 
+        
+        <form id="loginForm">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter 10-digit phone number" maxlength="10" required>
+            <br>
+            
+            <!-- OTP input will be shown dynamically here -->
+            <div id="otpSection" style="display: none;">
+                <label for="otp">OTP</label>
+                <input type="text" id="otp" name="otp" placeholder="Enter 4-digit OTP" maxlength="4" required>
+            </div>
+
+            <button type="button" id="getOtpBtn">Get OTP</button>
+            <button type="submit" id="loginBtn" style="display: none;">Login</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>s

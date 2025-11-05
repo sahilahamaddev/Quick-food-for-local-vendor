@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICK FOOD</title>
+    <link rel="stylesheet" href="landing2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FRESH ORGANIC FOOD</h1>
+            <h1>QUICK FOOD</h1>
+            <input type="text" id="search" placeholder="Search for restaurants or dishes..." onkeyup="searchRestaurants()"><br>
+        </div>
+    </header>
+
+    <!-- Restaurant List Section -->
+    <section id="restaurants">
+        <div class="container">
+            <h2>Restaurants</h2>
+            <div id="restaurant-list" class="restaurant-list">
+                <!-- Restaurant items will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-section" class="hidden">
+        <div class="container">
+            <h2 id="restaurant-name"></h2>
+            <div id="menu-list"></div>
+            <button onclick="goBack()" class="back-btn">Back to Restaurants</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>@contact us sahil ahamad <br>
+                onlysahil59@gmail.com
+            </p>
+        </div>
+    </footer>
+
+    <!-- Floating Cart Button -->
+    <button id="cart-open-btn" class="cart-open-btn" title="Open cart">🛒 <span id="cart-count">0</span></button>
+
+    <!-- Slide-in Cart Panel (keeps structure same, overlay added) -->
+    <aside id="cart-panel" class="cart-panel">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button id="cart-close" class="cart-close">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <!-- items injected here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total-line">
+                <span>Total:</span>
+                <span id="cart-total">₹0</span>
+            </div>
+            <div class="cart-actions">
+                <button id="clear-cart" class="btn btn-ghost">Clear</button>
+                <button id="place-order" class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </aside>
+
+    <div id="cart-backdrop" class="cart-backdrop hidden"></div>
+
+    <script src="landing3.js"></script>
+</body>
+</html>
