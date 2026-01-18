@@ -1,3 +1,7 @@
+🚀 Live Demo: https://localvendors.netlify.app
+
+A modern web platform designed to connect local vendors with customers, helping small businesses grow digitally while offering users an easy and smooth browsing experience.
+
 <img width="1470" height="956" alt="Screenshot 2025-11-05 at 9 53 54 PM" src="https://github.com/user-attachments/assets/502cffc3-dd2d-4e1f-8861-cd4d4ea615d0" /><img width="1470" height="956" alt="Screenshot 2025-11-05 at 9 53 54 PM" src="https://github.com/user-attachments/assets/1cd87bf3-6d81-40fe-b580-c654ffc715e5" />🍔 Quick Food – Food Delivery Website for Local Vendors 🚀
 
 Quick Food is a responsive and modern food delivery platform designed to help local food vendors, home chefs, and small restaurants who are unable to onboard on platforms like Zomato or Swiggy. 🌍
